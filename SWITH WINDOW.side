@@ -1,0 +1,371 @@
+{
+  "id": "eebe1e5b-c5a9-4695-9181-83e01169ec4e",
+  "version": "2.0",
+  "name": "iTMS Tester Advance Automation",
+  "url": "https://formy-project.herokuapp.com/switch-window",
+  "tests": [{
+    "id": "d421eac1-dbcd-4647-8d90-cb9416b7544c",
+    "name": "Format Form",
+    "commands": [{
+      "id": "b6b514d8-cde1-4aa7-82ac-0250b2f83b19",
+      "comment": "",
+      "command": "open",
+      "target": "/practice-form.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7bf0737-f9db-4051-9a93-5ce492b88ed1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1046x438",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77ba9805-a2b3-4c1d-98f3-ad7c551a2113",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44ceb228-774f-40aa-bbbd-d5ab27824217",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iTMS"
+    }, {
+      "id": "63e09bb9-de6f-4140-801e-f5744984e18a",
+      "comment": "",
+      "command": "click",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2ed60d3-8f57-4bbe-9e2e-cb014aae0c2e",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Coaching"
+    }, {
+      "id": "1ae46ea4-5122-4d76-997a-1e6fde9e9da9",
+      "comment": "",
+      "command": "click",
+      "target": "id=sex-1",
+      "targets": [
+        ["id=sex-1", "id"],
+        ["css=#sex-1", "css:finder"],
+        ["xpath=//input[@id='sex-1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[2]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdc1887b-cec7-4305-9190-47dfc0629214",
+      "comment": "",
+      "command": "click",
+      "target": "id=exp-6",
+      "targets": [
+        ["id=exp-6", "id"],
+        ["css=#exp-6", "css:finder"],
+        ["xpath=//input[@id='exp-6']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[3]/p[2]/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3a6e273-5d1e-4365-974f-0554ae9f503f",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea2",
+      "targets": [
+        ["id=tea2", "id"],
+        ["name=RedTea", "name"],
+        ["css=#tea2", "css:finder"],
+        ["xpath=//input[@id='tea2']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00aa2129-e522-4363-ae44-73251da71d53",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea3",
+      "targets": [
+        ["id=tea3", "id"],
+        ["name=oolongtea", "name"],
+        ["css=#tea3", "css:finder"],
+        ["xpath=//input[@id='tea3']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a054ff-3fbe-4ab5-a52a-fd7934a2fb60",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-0",
+      "targets": [
+        ["id=tool-0", "id"],
+        ["name=tool", "name"],
+        ["css=#tool-0", "css:finder"],
+        ["xpath=//input[@id='tool-0']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4a314d9-b73e-44e5-9565-3c7012992f29",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aefcc3a2-658c-4078-acb2-24fd8fc4b01e",
+      "comment": "",
+      "command": "select",
+      "target": "id=continents",
+      "targets": [],
+      "value": "label=Asia"
+    }, {
+      "id": "0eb5cc5e-cab2-4f94-955c-0850253a2e88",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40e3b821-6bd5-47ac-b721-9b519c8723fd",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Browser Commands"
+    }, {
+      "id": "5abd04ec-ec1a-434a-8e34-d9d1ae64d066",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "170,56.90625"
+    }, {
+      "id": "c84c38f5-f0de-49c9-bd34-acb93fe80d05",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "170,56.90625"
+    }, {
+      "id": "e6aa3a31-0e36-48b1-9683-3fe78fe39848",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "170,56.90625"
+    }, {
+      "id": "60d2f544-c6d8-4245-8246-a4ae9433dc5f",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Wait Commands"
+    }, {
+      "id": "35bbe7e4-fb26-4b4f-b694-3629941ee052",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[9]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcaaaa0c-cfad-4004-80e2-31185e91d318",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=wsb-canvas-template-footer",
+      "targets": [
+        ["id=wsb-canvas-template-footer", "id"],
+        ["css=#wsb-canvas-template-footer", "css:finder"],
+        ["xpath=//div[@id='wsb-canvas-template-footer']", "xpath:attributes"],
+        ["xpath=//body/div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Copyright Selenium Practice Website. All rights reserved."
+    }]
+  }, {
+    "id": "6cade6ce-2c86-4eb8-9b1c-7909372b6f70",
+    "name": "Swich Window",
+    "commands": [{
+      "id": "f3fe4c66-0924-4121-b5c2-6dc0447a6db2",
+      "comment": "",
+      "command": "open",
+      "target": "https://formy-project.herokuapp.com/switch-window",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4a3bd0c-c355-4494-8f31-3166b5cfbc92",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1046x438",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57940cee-fb47-49f4-b7d0-1150ec6927e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=new-tab-button",
+      "targets": [
+        ["id=new-tab-button", "id"],
+        ["css=#new-tab-button", "css:finder"],
+        ["xpath=//button[@id='new-tab-button']", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open new tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9533",
+      "windowTimeout": 2000
+    }, {
+      "id": "82e3d952-5ebc-402c-86de-f15a999a20d7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9533}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c27cc811-2069-4d44-9765-1006a13ac281",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Switch Window",
+      "targets": [
+        ["linkText=Switch Window", "linkText"],
+        ["css=li:nth-child(17) > .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Switch Window')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/switch-window')])[2]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66814beb-9c43-4bd3-9027-566942705a90",
+      "comment": "",
+      "command": "click",
+      "target": "id=alert-button",
+      "targets": [
+        ["id=alert-button", "id"],
+        ["css=#alert-button", "css:finder"],
+        ["xpath=//button[@id='alert-button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Open alert')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "918ed291-65dd-4990-adbd-6545c8b08f03",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "This is a test alert!",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4091318b-3174-446f-a1b2-0ff51dd5a354",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.form-group:nth-child(1) > .col-sm-8",
+      "targets": [
+        ["css=.form-group:nth-child(1) > .col-sm-8", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": "Open new tab"
+    }]
+  }],
+  "suites": [{
+    "id": "9b650012-7bb5-4649-a160-2dfb63e552ed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d421eac1-dbcd-4647-8d90-cb9416b7544c"]
+  }],
+  "urls": ["http://www.practiceselenium.com/", "https://formy-project.herokuapp.com/switch-window"],
+  "plugins": []
+}
